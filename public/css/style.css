@@ -1,0 +1,218 @@
+/*a标签无样式*/
+a{cursor: pointer;}
+a:link{text-decoration:none;}
+a:active{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+.hr_1{
+    margin-top: 6px;margin-bottom: 6px;
+}
+.hr_2{
+    margin-top: 10px;margin-bottom: 10px;
+}
+.hr_3{
+    margin-top: 3px;margin-bottom: 3px;
+}
+.a_none{color: #0f0f0f;}
+.a_none:hover{color: #00b3ee;}
+.a_none_1{color: #999;font-size: 15px;padding: 12px 5px 0px 0px;}
+.float_right{
+    float: right;
+}
+.font_shadow{
+    text-shadow: 5px 5px 5px #1d0000;
+    color: #00b3ee;
+    font-style:italic;
+}
+.font_shadow:hover{ color: #00b3ee;  }
+.text_align_center{
+    text-align: center
+}
+.xs_icon{
+    color: #00b3ee;
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    border:1px solid #00b3ee;
+    margin: 0px auto;
+    padding-top: 12px;
+}
+.xs_border{
+    border:1px solid #a1a1a1;
+    border-radius:5px;
+    margin: 0px 5px 10px 5px;
+    padding:0px 5px;
+}
+
+/*侧栏*/
+.content_left #professor_panel{
+    margin-top: 0px;
+    border-radius: 0px;
+    border-top: 0px;
+}
+
+.content_left #professor_panel .panel-heading{
+    background-image: none;
+    background-color: #FFFFFF;
+}
+.content_left #professor_panel .panel-heading .panel-title{
+    font-size: 14px;
+}
+.content_left #professor_panel .panel-heading .panel-title a .down{
+    transform: rotate(180deg);
+    transition: all 0.3s ease-in;
+}
+
+
+
+/*地图*/
+#allmap {width: auto;height: 300px;overflow: hidden;font-family:"微软雅黑";}
+
+
+/*头部*/
+.head_style{
+    height: 20px;
+    background-color: #00b3ee;
+}
+.head_logo{
+    margin-top: 0px
+}
+.nav{
+    margin-top: 5px;
+}
+
+/*内容区*/
+.content {
+    padding: 0px;
+}
+.content_left{
+    float: left;
+}
+.content_left .u1 {
+    list-style: none;
+    margin-top: 10px;
+    padding-left: 0px;
+}
+.content_left ul li .rubric {
+    display: block;
+    width: auto;
+    border: 1px;
+    padding: 15px;
+    background: #00b3ee;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    font-size: 20px;
+}
+
+@media (min-width: 979px) {
+    .font_shadow {
+        font-size: 25px;
+    }
+    .font_ps{
+        font-size: 18px;
+        font-family: "Georgia", Times, serif;
+    }
+    .content_list{
+        line-height: 30px;opacity:0.8;font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 978px) {
+
+    .font_shadow {
+        font-size: 22px;
+    }
+    .font_ps{
+        font-size: 15px;
+        font-family: "Georgia", Times, serif;
+    }
+    .content_list{
+        line-height: 30px;opacity:0.8;font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .font_shadow {
+        font-size: 20px;
+    }
+    .font_ps{
+        font-size: 13px;
+        font-family: "Georgia", Times, serif;
+    }
+    .content_list{
+        line-height: 30px;opacity:0.8;font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .font_shadow {
+        font-size: 18px;
+    }
+    .font_ps{
+        font-size: 10px;
+        font-family: "Georgia", Times, serif;
+    }
+    .content_list{
+        line-height: 30px;opacity:0.8;font-size: 14px;
+    }
+}
+
+.returnTop{
+    z-index:1;
+    width: 30px;
+    height: 60px;
+    display: block;
+    background-color: #888;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    border-radius: 5px;
+    position: fixed;
+    right: 30px;
+    bottom: 100px;
+    display: none;
+}
+.returnTop:hover{
+    background-color: #00b3ee;
+}
+
+
+
+/*脚部*/
+#footer {
+    background-color: rgba(46, 46, 46, 0.92);
+    height: 100px;
+    padding: 0px;
+    text-align: center;
+}
+
+#footer .juzhong ul {
+    padding-top: 20px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+#footer .juzhong ul li div span {
+    padding: 3px 5px;
+    color: #0f0f0f;
+}
+
+#footer .juzhong {
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+}
+
+.fa-icon {
+    margin-right: 5px;
+}
+
+.list-no-border-radius li {
+    border-radius: 0 !important;
+}
+
+.no-border-radius {
+    border-radius: 0 !important;
+}

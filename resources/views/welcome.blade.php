@@ -1,0 +1,12 @@
+@extends('layoutview')
+@section('head')
+    <title>医院首页</title>
+@stop
+@section('body')
+    @include('layouts.returnTop')
+    @include('layouts.head')
+    @include('layouts.navbar')
+    @include('layouts.carousel')
+    @include('layouts.content')
+    @include('layouts.bottom')
+@stop

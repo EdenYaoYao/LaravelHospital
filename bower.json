@@ -1,0 +1,23 @@
+{
+  "name": "laravel-vue-cms",
+  "description": "a cms built on laravel5.2, vue.js 1.0+",
+  "main": "",
+  "authors": [
+    "noop"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "proxy": "http://proxy.mysite.com:8080",
+  "https-proxy": "http://proxy.mysite.com:8080",
+  "directory": "public",
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

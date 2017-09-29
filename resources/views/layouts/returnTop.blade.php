@@ -1,0 +1,1 @@
+<a href="javascript:;" class="returnTop hidden-xs hidden-sm"><i class="icon-arrow-up"></i></a>
